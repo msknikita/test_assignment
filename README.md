@@ -1,1 +1,1 @@
-# Тестовое задание на позицию Junior JavaScript developer
+## Тестовое задание на позицию Junior JavaScript developer
