@@ -10,19 +10,15 @@ var json = '{ "displayedName": {'+
 var obj = JSON.parse(json);
 var rnumber = obj.stock.stocks["34"];
 
-// getName();
-//numbers();
 var result = max();
 console.log(result.amount);
 console.log(result.number);
 
-function getName()
-{
+function getName() {
     console.log(obj.displayedName.displayedName.description);    
 }
 
-function numbers()
-{
+function numbers() {
     const array = [];
 
     for(x in rnumber){
@@ -35,8 +31,7 @@ function numbers()
         console.log(array[i]);
 }
 
-function max()
-{
+function max() {
     var tmp_amount = rnumber["2"];
     var tmp_number;
 
